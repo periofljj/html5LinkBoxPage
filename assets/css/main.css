@@ -2549,5 +2549,10 @@
 			text-align: left;
 			display: inline-block;
 			vertical-align: top;
-			width: 120px;
+			margin-right: 20px;
 		}
+		.actGotop{position:fixed;_position:absolute;bottom:100px;right:50px;width:150px;height:195px;display:none;}
+
+		.actGotop a,.actGotop a:link{width:150px;height:195px;display:inline-block;background:url(../../images/blog7year_gotop.png) no-repeat;_background:url(images/blog7year_gotop.gif) no-repeat;outline:none;}
+
+		.actGotop a:hover{background:url(../../images/blog7year_gotopd.gif) no-repeat;outline:none;}
