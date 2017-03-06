@@ -2545,3 +2545,9 @@
 			background-repeat:no-repeat;
 			background-size: auto auto;
 		}
+		.col-content{
+			text-align: left;
+			display: inline-block;
+			vertical-align: top;
+			width: 120px;
+		}
