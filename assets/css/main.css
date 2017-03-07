@@ -48,6 +48,7 @@
 		-webkit-text-size-adjust: none;
 	}
 
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -1910,7 +1911,7 @@
 		.icon:before {
 			display: inline-block;
 			font-family: FontAwesome;
-			font-size: 1.25em;
+			font-size: 0.8em;
 			text-decoration: none;
 			font-style: normal;
 			font-weight: normal;
@@ -2456,7 +2457,7 @@
 
 
 			#header {
-				padding: 6em 0 6em 0;
+				padding: 2em 0 2em 0;
 			}
 
 				#header header {
@@ -2489,6 +2490,7 @@
 						background-size: 45px 33px;
 						display: none;
 					}
+
 
 		/* Banner */
 
@@ -2556,3 +2558,62 @@
 		.actGotop a,.actGotop a:link{width:150px;height:195px;display:inline-block;background:url(../../images/blog7year_gotop.png) no-repeat;_background:url(images/blog7year_gotop.gif) no-repeat;outline:none;}
 
 		.actGotop a:hover{background:url(../../images/blog7year_gotopd.gif) no-repeat;outline:none;}
+
+		input[type="search"] {
+		    border-radius: .25em;
+		    background-color: #fff;
+		    background-image: url(../../images/search-icon.svg);
+		    background-repeat: no-repeat;
+		    background-position: center right 30px;
+		    background-size: 4%;
+		    box-shadow: 0 0.1em 0.1em 0 rgba(0,0,0,.1);
+		    border: solid 1px rgba(0,0,0,.2);
+		    border-bottom: 1px solid rgba(0,0,0,.3);
+		    padding: .4em;
+		    width: 100%;
+		    margin: 0em 0;
+		    -webkit-appearance: none;
+		    -moz-appearance: none;
+		    appearance: none;
+		    outline: none;
+		}
+		.search {
+		    position: relative;
+		}
+		.results{
+			margin: 0 auto;
+			width: 80%;
+			text-align: center;
+		}
+		.results div{
+			background-color: #35b88f;
+		    color: #fff;
+		    padding: 16px 10px;
+		    display: inline-block;
+		    border: none;
+		    font: 12px/18px "Avenir LT W01_85 Heavy", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		    text-transform: uppercase;
+		    cursor: pointer;
+		    text-align: center;
+		    margin:10px 2px; 
+		}
+		.results div a{
+			color: #fff;
+		}
+
+
+		.hidden {
+		  display: none !important;
+		}
+
+		#header1{
+			color: #fff;
+			padding: 150px 300px 100px 300px;
+			display: block;
+			margin: 0 auto;
+			text-align: center;
+		}
+		#header1 h1{
+			font-size: 1.75em;
+			letter-spacing: 6px;
+		}
