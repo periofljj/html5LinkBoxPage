@@ -2547,6 +2547,18 @@
 			background-repeat:no-repeat;
 			background-size: auto auto;
 		}
+		#displayMode{
+			width: 150px;
+			height: 40px;
+			/*background-color: rgba(131,195,187,.8);*/
+			border: solid 1px rgba(131,195,187,.8);
+			float: right;
+			margin-right: 100px;
+			margin-top: 50px;
+			font-size: 16px;
+			color: #fff;
+			text-align: center;
+		}
 		.col-content{
 			text-align: left;
 			display: inline-block;
@@ -2579,6 +2591,7 @@
 		}
 		.search {
 		    position: relative;
+		    display: none;
 		}
 		.results{
 			margin: 0 auto;
@@ -2618,7 +2631,7 @@
 
 		#header1{
 			color: #fff;
-			padding: 150px 300px 100px 300px;
+			padding: 150px 300px 0px 300px;
 			display: block;
 			margin: 0 auto;
 			text-align: center;
@@ -2639,4 +2652,24 @@
 		    letter-spacing: 3px;
 		    padding: 0;
 		    margin-top: 0.35em;
-}
+		}
+		#groupmodel{
+			/*display: none;*/
+		}
+		#searchmodel{
+			display: none;
+		}
+		#kk{
+			margin-top: 0;
+		}
+		#kk:after{
+			top: 0em;
+			height: 0;
+		}
+		#kk:before{
+			height: 0;
+		}
+		#kk1{
+			
+		}
+
