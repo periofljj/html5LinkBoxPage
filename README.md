@@ -1,9 +1,15 @@
 # html5LinkBoxPage
 
-此页面是为导航公司内部各类链接设计的工具页面。强大的页面搜索功能、良好的设计感和酷炫的动效带来绝佳的用户体验。
+此页面是为导航公司内部各类链接设计的工具页面。
+两种查询模式可切换。
+强大的页面搜索功能、良好的设计感和酷炫的动效带来绝佳的用户体验。
 
 ### Page Preview
-![LinkBox Preview](https://github.com/periofljj/html5LinkBoxPage/raw/master/preview.jpg)
+#### Search Model
+![search-model Preview](https://github.com/periofljj/html5LinkBoxPage/raw/master/search-model.jpg)
+
+#### Group Model
+![group-model Preview](https://github.com/periofljj/html5LinkBoxPage/raw/master/group-model.jpg)
 
 ### 支持页面搜索
 搜索框中输入名称，相关的result块会显示在下方。
