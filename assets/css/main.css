@@ -2559,6 +2559,19 @@
 			color: #fff;
 			text-align: center;
 		}
+		#displayMode:hover{
+			width: 150px;
+			height: 40px;
+			background-color: #35b88f;
+			border: none;
+			float: right;
+			margin-right: 100px;
+			margin-top: 50px;
+			font-size: 16px;
+			color: #fff;
+			text-align: center;
+			cursor: pointer;
+		}
 		.col-content{
 			text-align: left;
 			display: inline-block;
@@ -2589,22 +2602,23 @@
 		    appearance: none;
 		    outline: none;
 		}
-		.search {
+		#searchbox {
 		    position: relative;
-		    display: none;
+		    margin-top: 40px;
 		}
 		.results{
 			margin: 0 auto;
 			width: 80%;
 			text-align: center;
+			margin-top: 50px;
 		}
 		.results div{
 			background-color: #35b88f;
 		    color: #fff;
-		    padding: 12px 10px;
+		    padding: 12px 16px;
 		    display: inline-block;
 		    border: none;
-		    font: 12px/18px "Avenir LT W01_85 Heavy", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		    font: 16px "Avenir LT W01_85 Heavy", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		    text-transform: uppercase;
 		    cursor: pointer;
 		    text-align: center;
@@ -2656,20 +2670,25 @@
 		#groupmodel{
 			/*display: none;*/
 		}
-		#searchmodel{
-			display: none;
-		}
-		#kk{
+
+		#groupbox{
 			margin-top: 0;
 		}
-		#kk:after{
+		#groupbox:after{
 			top: 0em;
 			height: 0;
 		}
-		#kk:before{
+		#groupbox:before{
 			height: 0;
 		}
-		#kk1{
-			
+
+		#groupbanner:after {
+		    content: '';
+		    display: block;
+		    position: absolute;
+		    top: 136px;
+		    left: 50%;
+		    height: 100%;
+		    border-left: solid 1px #fff;
 		}
 

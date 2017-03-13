@@ -12,21 +12,21 @@
 	<body>
 		<!-- company icon -->
 		<!-- <div id="companyIcon"></div> -->
-		<div id = "displayMode">Group Model</div>
+		<div id = "displayMode"></div>
 
 		<!-- Header -->
 			<section id = "header1">
 					<h1>Tool Box</h1>
 					<p>BY PERI</p>
 					<!-- <a href="#banner" class="button style2 scrolly-middle">Find what you need</a> -->
-					<div class = "search">
+					<div class = "search" id = "searchbox">
 						<input type="search" placeholder="Search what you need" name="">
 					</div>
 			</section>
 
 
 		<!-- result display -->	 
-		<div id = "searchmodel">
+		<div id = "searchmodel" class="hidden">
 			<a href="" name = "banner"></a>
 			  	<div class="results">
 				    <div><a href="#" class="icon fa-envelope"></a><a href=""> Mail</a></div>
@@ -58,11 +58,11 @@
 				    <div><a href="#" class="icon fa-phone-square"></a><a href=""> Badge</a></div>
 			  	</div>
 	 	</div> 
-		<div id = "groupmodel">
+		<div id = "groupmodel" class="hidden">
 		<!-- Portfolio -->	  
-			<article class="container box style2" id = "kk">
+			<article class="container box style2" id = "groupbox">
 
-				<div class="inner" id = "kk1">
+				<div class="inner" id = "groupbanner">
 					<div class="row 0%">
 						<div class="3u 12u(mobile)"><a href="#dailVisits" class="image fit"><img src="images/thumbs/01.jpg" alt="" title="Ad infinitum" /></a></div>
 						<div class="3u 12u(mobile)"><a href="#hr" class="image fit"><img src="images/thumbs/02.jpg" alt="" title="Dressed in Clarity" /></a></div>
@@ -257,7 +257,5 @@
 				  placeholder: 'no results',
 				})
 			</script>
-
-
 	</body>
 </html>

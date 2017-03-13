@@ -6,27 +6,44 @@
 
 (function($) {
 
-		//goTotop
-		$(window).scroll(function() {		
+	//goTotop
+	$(window).scroll(function() {		
 
 		if($(window).scrollTop() >= 100){
-
 			$('.actGotop').fadeIn(300); 
-
 		}else{    
-
 			$('.actGotop').fadeOut(300);    
-
 		}  
 
 	});
 
-
-
 	$('.actGotop').click(function(){
+		$('html,body').animate({scrollTop: '0px'}, 800);
+	});	
 
-	$('html,body').animate({scrollTop: '0px'}, 800);});	
-	//
+
+	//switch display model
+	$('#searchmodel').removeClass('hidden');
+	$('#searchbox').removeClass('hidden');
+	var modelNow = "Search Model"
+	$('#displayMode').text("Group Model");
+	$('#displayMode').click(function(){
+		if(modelNow == "Search Model"){
+
+			$('#groupmodel').removeClass('hidden');
+			modelNow = "Group Model";
+			$('#searchmodel').addClass('hidden');
+			$('#searchbox').addClass('hidden');
+			$('#displayMode').text("Search Model");
+		}else if(modelNow == "Group Model"){
+
+			$('#searchmodel').removeClass('hidden');
+			$('#searchbox').removeClass('hidden');
+			modelNow = "Search Model"
+			$('#groupmodel').addClass('hidden');
+			$('#displayMode').text("Group Model");
+		}
+	});
 
 	var settings = {
 
