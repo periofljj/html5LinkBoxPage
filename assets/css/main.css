@@ -1810,7 +1810,7 @@
 					position: absolute;
 					top: 0;
 					height: 100%;
-					width: auto;
+					width: 100%;
 				}
 
 			.box.style1 .inner > :last-child {
@@ -2563,7 +2563,7 @@
 			width: 150px;
 			height: 40px;
 			background-color: #35b88f;
-			border: none;
+			border: solid 1px #35b88f;
 			float: right;
 			margin-right: 100px;
 			margin-top: 50px;
