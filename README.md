@@ -1,9 +1,5 @@
 # html5LinkBoxPage
-
-此页面是为导航公司内部各类链接设计的工具页面。
-两种查询模式可切换。
-强大的页面搜索功能、良好的设计感和酷炫的动效带来绝佳的用户体验。
-
+一个简约轻量的导航页面。两种显示模式用户可切换：搜索、分组。
 ### Page Preview
 #### Search Model
 ![search-model Preview](https://github.com/periofljj/html5LinkBoxPage/raw/master/search-model.jpg)
